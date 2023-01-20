@@ -1,10 +1,6 @@
 # git-estudos
 tests 1
-tests 1
-tests 1
-tests 1
+
 testes 2
-tests 1
-tests 1
-tests 1
-tests 1
+
+Teste Cosme
