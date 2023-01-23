@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    public class Multiplicacao : Operacao
+    public class Multiplicacao : IOperacao
     {
         public double Calculo(double valor1, double valor2)
         {

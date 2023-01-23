@@ -10,8 +10,15 @@ namespace Calculadora
     {
         public double Recebe_num()
         {
-           var number = Convert.ToDouble(Console.ReadLine());
-           return number;
+            try
+            {
+                var number = Convert.ToDouble(Console.ReadLine());
+                return number;
+            }
+            catch(Exception ex)
+            {
+                throw new FormatException("Você não digitou um número " + ex);
+            }
         }
 
     }

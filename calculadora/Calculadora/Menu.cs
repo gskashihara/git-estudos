@@ -25,9 +25,13 @@ namespace Calculadora
                             "operação matemática");
         }
 
-        public double Selecao(int operacao, double valor1, double valor2)
+        public double Selecao(int operacao, Teclado teclado)
         {
-            if(operacao == (int)Enum.Soma)
+            
+            var valor1 = teclado.Recebe_num();
+            var valor2 = teclado.Recebe_num();
+
+            if (operacao == (int)Enum.Soma)
             {
                 return new Soma().Calculo(valor1, valor2);
             }

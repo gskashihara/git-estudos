@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    public class Soma : Operacao
+    public class Soma : IOperacao
     {
         public virtual double Calculo(double valor1, double valor2)
         {

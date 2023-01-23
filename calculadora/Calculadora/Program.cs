@@ -6,18 +6,18 @@
         {
             var menu = new Menu();
             var teclado = new Teclado();
-            var condicional = 0;
-            while(condicional != -9999)
+            var condicional = true;
+            while(condicional)
             {
                 menu.PrintMenu();
 
                 var opcao = (int)teclado.Recebe_num();
-                menu.PrintTeclado();
-                if (opcao == 4) break;
                 
-                var valor1 = teclado.Recebe_num();
-                var valor2 = teclado.Recebe_num();
-                Console.WriteLine("Resultado: " + menu.Selecao(opcao, valor1, valor2));
+                if ((Enum)opcao == Enum.Sair) break;
+                
+                menu.PrintTeclado();
+                Console.WriteLine("Resultado: " + menu.Selecao(opcao, teclado));
+                Console.WriteLine("-----------------------------------------------------------------------");
             }
             
         }

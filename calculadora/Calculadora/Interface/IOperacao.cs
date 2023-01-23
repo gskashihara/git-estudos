@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora.Interface
 {
-    public interface Operacao
+    public interface IOperacao
     {
         public abstract double Calculo(double valor1, double valor2);
     }

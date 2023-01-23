@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danilohs\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\danilohs\\Documents\\kashira\\git-estudos\\calculadora\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danilohs\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\danilohs\\Documents\\kashira\\git-estudos\\calculadora\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danilohs\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\danilohs\\Documents\\kashira\\git-estudos\\calculadora\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\danilohs\\source\\repos\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\danilohs\\Documents\\kashira\\git-estudos\\calculadora\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\danilohs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danilohs\\source\\repos\\Calculadora\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\danilohs\\Documents\\kashira\\git-estudos\\calculadora\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

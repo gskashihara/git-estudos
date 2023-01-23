@@ -7,18 +7,16 @@ using System.Threading.Tasks;
 
 namespace Calculadora
 {
-    public class Divisao : Operacao
+    public class Divisao : IOperacao
     {
         public double Calculo(double valor1, double valor2)
         {
-            try
+            if(valor2 == 0)
             {
-                return valor1 / valor2;
+                throw new DivideByZeroException("Você tentou fazer uma divisão por zero");
             }
-            catch(Exception ex)
-            {
-                throw  new DivideByZeroException(ex + "Você tentou fazer uma divisão por zero");
-            }
+
+            return valor1 / valor2;
         }
     }
 }
