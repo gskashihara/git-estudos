@@ -25,31 +25,7 @@ namespace Calculadora
                             "operação matemática");
         }
 
-        public double Selecao(int operacao, Teclado teclado)
-        {
-            
-            var valor1 = teclado.Recebe_num();
-            var valor2 = teclado.Recebe_num();
-
-            if (operacao == (int)Enum.Soma)
-            {
-                return new Soma().Calculo(valor1, valor2);
-            }
-            else if(operacao == (int)Enum.Subtracao){
-                return new Subtracao().Calculo(valor1, valor2);
-            }
-            else if(operacao == (int)Enum.Multiplicacao){
-                return new Multiplicacao().Calculo(valor1, valor2);
-            }
-            else if (operacao == (int)Enum.Divisao)
-            {
-                return new Divisao().Calculo(valor1, valor2);
-            }
-            else
-            {
-                return 0;
-            }
-        }
+        
      }
 }
 

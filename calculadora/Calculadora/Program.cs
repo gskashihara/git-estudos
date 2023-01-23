@@ -19,7 +19,7 @@
                 if ((Enum)opcao == Enum.Sair) break;
                 
                 menu.PrintTeclado();
-                Console.WriteLine("Resultado: " + menu.Selecao(opcao, teclado));
+                Console.WriteLine("Resultado: " + teclado.Selecao(opcao));
                 Console.WriteLine("-----------------------------------------------------------------------");
             }
             
